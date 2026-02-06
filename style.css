@@ -135,6 +135,28 @@ h3 {
   /* padding-top: 80px; Removed navbar offset */
 }
 
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.date-badge {
+  background: white;
+  color: #f368e0;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: bold;
+  font-family: var(--font-heading);
+  display: inline-block;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  border: 2px dashed #feca57;
+  animation: bounce 3s infinite;
+}
+
 .title {
   font-size: 4.5rem;
   margin-bottom: 0.5rem;

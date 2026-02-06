@@ -42,7 +42,7 @@ function fireConfetti() {
 }
 
 // Typewriter Effect
-const text = "Happy Birthday\nNajma Bashiir Ali!";
+const text = "Happy Birthday\nNajma Bashiir Ali";
 const typeWriterElement = document.getElementById('typewriter');
 let i = 0;
 
@@ -62,6 +62,8 @@ function typeWriter() {
 window.addEventListener('load', () => {
   fireConfetti();
   typeWriter();
+
+  // Set Current Date logic removed
 });
 
 
