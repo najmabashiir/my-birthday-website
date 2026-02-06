@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <div id="app">
+    <!-- Navbar (Removed) -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content" data-aos="fade-up">
+        <h1 class="title"><span id="typewriter"></span></h1>
+        <p class="subtitle">Wishing you a year helping others and achieving all your dreams.</p>
+        <button id="confetti-btn" class="btn">Make a Wish ✨</button>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <h2 data-aos="fade-right">My Cutest Moments</h2>
+      <div class="gallery-grid" id="gallery-grid">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+          <img src="./assets/images/najma7.jpg" alt="Najma 7" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+          <img src="./assets/images/najma9.jpg" alt="Najma 9" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+          <img src="./assets/images/najma5.jpg" alt="Najma 5" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+          <img src="./assets/images/najma2.jpg" alt="Najma 2" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+          <img src="./assets/images/najma3.jpg" alt="Najma 3" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+          <img src="./assets/images/najma4.jpg" alt="Najma 4" class="gallery-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close-btn">&times;</span>
+      <img class="lightbox-content" id="lightbox-img">
+      <div id="caption"></div>
+    </div>
+
+    <!-- Interactive Wishes Section -->
+    <section id="wishes" class="wishes">
+      <h2 data-aos="fade-left">Send a Wish</h2>
+      <div class="wishes-container" data-aos="zoom-in">
+        <div class="wishes-list" id="wishes-list">
+          <div class="wish-card">
+            <p>"Happy Birthday to me! May this year bring me closer to my goals, improved health, and endless
+              happiness."</p>
+            <p class="sender">- Najma</p>
+          </div>
+        </div>
+
+        <div class="wish-form">
+          <h3>Leave a Note</h3>
+          <textarea id="wish-input" placeholder="Write a sweet message..."></textarea>
+          <button id="add-wish-btn" class="btn">Send Love 💌</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with 💖 for Najma Bashiir Ali</p>
+      <p class="copyright">© 2026 Birthday Celebration</p>
+    </footer>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
